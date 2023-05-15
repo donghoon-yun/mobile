@@ -1,0 +1,160 @@
+@import url(common.css);
+@import url(header_footer.css);
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* slick */
+.slick-prev,
+.slick-next,
+.slick-next:before,
+.slick-prev:before{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+#flowerprop{
+  width: 100%;
+
+}
+.visual_img{
+  width: 100%;
+  height: 300px;
+}
+.visual_img div{
+  width: 100%;
+  height: 300px;
+}
+.visual_img div img{
+  width: 100%;
+  height: inherit;
+  object-fit: fill;
+}
+
+
+
+.tabmenu{
+  width: inherit;
+  height: inherit;
+
+}
+.tabmenu_header{
+  width: 100%;
+  height: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.header_name{
+  display: flex;
+  justify-content: space-around;
+}
+.header_name li{
+  font-weight: 500;
+}
+.header_name li.active{
+  border-radius: 3px;
+  background-color: #11493e;
+  padding: 3px;
+  color: #fff;
+}
+
+.tab_contents{
+  width: 100%;
+  height: 820px;
+  /* border: 1px solid #000; */
+}
+.tab_contents div{
+  display: none;
+  width: 100%;
+}
+.tab_contents div.active{display: block;}
+.contents_inner{
+  width: 100%;
+  height: 820px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
+  /* border: 1px solid #000; */
+}
+.contents_inner li{
+  width: 90%;
+  height: 190px;
+  background-color: #11493e;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.875rem;
+  position: relative;
+}
+.contents_inner li img{
+  width: 90%;
+  height: 130px;
+  /* border: 1px solid #000; */
+  margin-top: 5px;
+}
+
+
+.contents_inner li p{
+  margin-top: 10px;
+  color: #fff;
+}
+.contents_inner li span{
+  color: #ddd;
+}
+.contents_inner li b{
+  padding-left: 10px;
+  color: crimson;
+  font-weight: 800;
+  text-shadow: 1px 1px 1px #111;
+}
+/* #tab1 .contents_inner li:last-child p{
+  margin-top: 0;
+  line-height: normal;
+} */
+/* ______________________________________________text-decoration:none; */
+#tab1 ul li:nth-child(3) span{text-decoration-line: line-through; font-size: 10px; font-size: 0.625rem;}
+#tab1 ul li:nth-child(4) span{text-decoration-line: line-through; font-size: 10px; font-size: 0.625rem;}
+#tab1 ul li:nth-child(5) span{text-decoration-line: line-through; font-size: 10px; font-size: 0.625rem;}
+#tab1 ul li:nth-child(6) span{text-decoration-line: line-through; font-size: 10px; font-size: 0.625rem;}
+#tab1 ul li:nth-child(7) span{text-decoration-line: line-through; font-size: 10px; font-size: 0.625rem;}
+#tab1 ul li:nth-child(9) span{text-decoration-line: line-through; font-size: 10px; font-size: 0.625rem;}
+#tab1 ul li:nth-child(12) span{text-decoration-line: line-through; font-size: 10px; font-size: 0.625rem;}
+
+#tab2 ul li:nth-child(1) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(2) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(3) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(4) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(5) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(7) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(8) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(9) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab2 ul li:nth-child(10) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+
+#tab3 ul li:nth-child(1) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab3 ul li:nth-child(4) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+#tab3 ul li:nth-child(5) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+
+#tab4 ul li:nth-child(1) span{text-decoration-line: line-through; font-size: 10px;font-size: 0.625rem;}
+
+@media all and (max-width:495px){
+
+  .contents_inner li{
+    font-size: 10px;
+    font-size: 0.625rem;
+  }
+}
+
+@media (min-width:495px) and (max-width:603px){
+
+  .contents_inner li{
+    font-size: 11px;
+    font-size: 0.6875rem;
+  }
+
+  
+
+}

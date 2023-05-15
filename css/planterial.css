@@ -1,0 +1,71 @@
+@import url(common.css);
+@import url(header_footer.css);
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+html{scroll-behavior: smooth;}
+/* top botton */
+.top{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 20px;
+  color: teal;
+}
+.top:hover{
+  transform:translate(30deg);
+}
+
+
+/* __________________________________________________section */
+section{
+  width: 100%;
+}
+section h3{
+  text-align: center;
+  margin: 30px 0;
+}
+.planteria_text{
+  text-align: center;
+  margin-top: 50px;
+}
+.planteria_text span{
+  font-size: 10px;
+  color: #3a3a3a80;
+}
+.planteria_menu{width: 100%;}
+.planteria_menu ul{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.planteria_gallery{
+  height: 400px;
+  /* border: 1px solid #000; */
+  padding: 10px;
+}
+.largeImg1, .largeImg2, .largeImg3, .largeImg4, .largeImg5, .largeImg6, .largeImg7{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid #000; */
+}
+.largeImg1 img, .largeImg2 img, .largeImg3 img, .largeImg4 img ,.largeImg5 img ,.largeImg6 img , .largeImg7 img{
+  width: inherit;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #363600;
+}
+.thumbs1, .thumbs2, .thumbs3, .thumbs4, .thumbs5, .thumbs6, .thumbs7{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px 0 ;
+  place-items: center;
+  margin-top: 20px;
+}
+.thumbs1 img, .thumbs2 img, .thumbs3 img, .thumbs4 img, .thumbs5 img, .thumbs6 img, .thumbs7 img{
+  width: 50px;
+  height: 50px;
+  border: 2px solid #363600;
+}
+
+
+
